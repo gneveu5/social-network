@@ -1,0 +1,73 @@
+// in case we need to do it without library
+// type Header struct {
+//     Algorithm string `json:"alg"`
+//     Type      string `json:"typ"`
+// }
+
+// type Claims struct {
+//     UserID   int    `json:"user_id"`
+//     Username string `json:"username"`
+//     Expires int64 `json:"exp"` // Token expiration time in secondes since Unix Epoch (1/1/1970 @ 00H00)
+// }
+
+// func CreateJWT(userID int, username string, expiration time.Duration) (string, error) {
+
+// 	//header
+// 	header := Header{
+//         Algorithm: "HS256",
+//         Type:      "JWT",
+//     }
+
+//     headerJSON, err := json.Marshal(header)
+//     if err != nil {
+//         return "", err
+//     }
+
+//     encodedHeader := base64.RawURLEncoding.EncodeToString(headerJSON)
+
+// 	//body
+//     claims := Claims{
+//         UserID:   userID,
+//         Username: username,
+//         Expires:  time.Now().Add(expiration).Unix(),
+//     }
+
+//     claimsJSON, err := json.Marshal(claims)
+//     if err != nil {
+//         return "", err
+//     }
+
+//     encodedClaims := base64.RawURLEncoding.EncodeToString(claimsJSON)
+
+//     secretKey := []byte("secret") //-> todo make this key randomly
+//     hmacHash := hmac.New(sha256.New, secretKey)
+//     hmacHash.Write([]byte(encodedClaims))
+//     signature := base64.RawURLEncoding.EncodeToString(hmacHash.Sum(nil))
+
+//     jwt := fmt.Sprintf("%s.%s.%s", encodedHeader, encodedClaims, signature)
+
+//     return jwt, nil
+// }
+
+//- websocket sur chrome => val E
+//- corriger le nom de l'admin val R
+//- ajouter date à event val R
+- Notifs :
+    - prévenir l'admin du groupe sur une demande de join
+        //-> GetAdminId et SendNewNotification (api websocket) => val R
+    - notif type 1 (invitation groupe)
+        //-> ajouter la fonctionnalité. on peut inviter ses followers aux groupes => val R
+        -> ras le cul de ce sujet de merde => guillaume
+        //-> faire le lien avec le système de notif => val E
+    - notif type 3 (création d'event)
+        //-> notifs créées à la création de l'event => fait Val R
+        //-> todo : supprimer la notif sur acceptation via page groupe
+        //-> todo : endpoint notification pour insérer dans DB
+        
+//- Ajouter date de l'event sur l'event val R
+- Profil privé : enlever les liens vers les informations => guillaume
+
+//- Post semi-privé : liste d'utilisateurs qui peuvent le voir => val R
+// - Chat : update liste de contacts en temps réel => val E
+//? - docker
+- nettoyage + commentaires + un minimum de doc

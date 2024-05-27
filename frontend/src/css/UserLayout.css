@@ -1,0 +1,119 @@
+.profile-head {
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 60%;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    font-family: Arial;
+}
+
+.profile > div {
+    flex: 1;
+}
+
+.profile-name {
+    font-weight: bold;
+    font-size: large;
+}
+
+.profile-dob {
+    margin-top: 2%;
+    color: #908888;
+}
+
+.profile-aboutme {
+    margin-top: 2%;
+}
+
+.profile-butonn {
+    margin-top: 10%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.avatar-in-profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.follow-button {
+    background-color: #475d48;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.follow-button:hover {
+    background-color: #45a049;
+}
+
+.follow-button:active {
+    background-color: #3f9142;
+}
+
+/* NAVBAR */
+
+.user-layout-container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.usernavbar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.usernavbarchild {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.usernavbarchild a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.usernavbarchild a:hover {
+    background-color: #e0e0e0;
+}
+
+.usernavbarchild a.active {
+    background-color: #283038;
+    color: #fff;
+}
+
+
+.butonn-profile {
+    color: #000000;
+ 
+   
+}
+
+.button-profile:hover {
+    background-color: #3654ff;
+    cursor: pointer;
+  }

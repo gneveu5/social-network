@@ -1,0 +1,8 @@
+-- +migrate Up
+CREATE TABLE IF NOT EXISTS user_event (
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+    user_id INTEGER NOT NULL,
+    event_id INTEGER NOT NULL,
+    FOREIGN KEY(user_id) REFERENCES users(id) ON DELETE CASCADE,
+    FOREIGN KEY(event_id) REFERENCES group_event(id) ON DELETE CASCADE
+);

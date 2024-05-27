@@ -1,0 +1,22 @@
+-- Insertion des utilisateurs
+-- INSERT INTO users (nickname, email, user_password, first_name, last_name, date_of_birth, about_me, public_private, avatar, has_validated) VALUES
+-- ('user1', 'user1@example.com', 'password1', 'John', 'Doe', '1990-01-01', 'About user 1', 1, 'avatar1.jpg', 1),
+-- ('user2', 'user2@example.com', 'password2', 'Jane', 'Doe', '1991-02-02', 'About user 2', 0, 'avatar2.jpg', 1),
+-- ('user3', 'user3@example.com', 'password3', 'Alice', 'Smith', '1992-03-03', 'About user 3', 1, 'avatar3.jpg', 0),
+-- ('user4', 'user4@example.com', 'password4', 'Bob', 'Johnson', '1993-04-04', 'About user 4', 0, 'avatar4.jpg', 1),
+-- ('user5', 'user5@example.com', 'password5', 'Emily', 'Brown', '1994-05-05', 'About user 5', 1, 'avatar5.jpg', 0),
+-- ('user6', 'user6@example.com', 'password6', 'Michael', 'Wilson', '1995-06-06', 'About user 6', 0, 'avatar6.jpg', 1),
+-- ('user7', 'user7@example.com', 'password7', 'Sophia', 'Martinez', '1996-07-07', 'About user 7', 1, 'avatar7.jpg', 1),
+-- ('user8', 'user8@example.com', 'password8', 'David', 'Anderson', '1997-08-08', 'About user 8', 0, 'avatar8.jpg', 0),
+-- ('user9', 'user9@example.com', 'password9', 'Olivia', 'Taylor', '1998-09-09', 'About user 9', 1, 'avatar9.jpg', 1),
+-- ('user10', 'user10@example.com', 'password10', 'James', 'Thomas', '1999-10-10', 'About user 10', 0, 'avatar10.jpg', 1),
+-- ('user11', 'user11@example.com', 'password11', 'Charlotte', 'Harris', '2000-11-11', 'About user 11', 1, 'avatar11.jpg', 0),
+-- ('user12', 'user12@example.com', 'password12', 'William', 'Clark', '2001-12-12', 'About user 12', 0, 'avatar12.jpg', 1),
+-- ('user13', 'user13@example.com', 'password13', 'Amelia', 'Lewis', '2002-01-13', 'About user 13', 1, 'avatar13.jpg', 0),
+-- ('user14', 'user14@example.com', 'password14', 'Daniel', 'Lee', '2003-02-14', 'About user 14', 0, 'avatar14.jpg', 1),
+-- ('user15', 'user15@example.com', 'password15', 'Mia', 'Walker', '2004-03-15', 'About user 15', 1, 'avatar15.jpg', 1),
+-- ('user16', 'user16@example.com', 'password16', 'Alexander', 'Perez', '2005-04-16', 'About user 16', 0, 'avatar16.jpg', 0),
+-- ('user17', 'user17@example.com', 'password17', 'Ava', 'Hall', '2006-05-17', 'About user 17', 1, 'avatar17.jpg', 1),
+-- ('user18', 'user18@example.com', 'password18', 'Ryan', 'Young', '2007-06-18', 'About user 18', 0, 'avatar18.jpg', 0),
+-- ('user19', 'user19@example.com', 'password19', 'Ethan', 'King', '2008-07-19', 'About user 19', 1, 'avatar19.jpg', 1),
+-- ('user20', 'user20@example.com', 'password20', 'Emma', 'Green', '2009-08-20', 'About user 20', 0, 'avatar20.jpg', 1);

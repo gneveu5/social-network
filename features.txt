@@ -1,0 +1,26 @@
+Login / register
+    - Obligatoire (auto redirection vers une page de login/register classique)
+    - Regarder le détail des infos dans le sujet
+    - Log avec mail + pwd
+
+Followers
+    - Mettre un bouton follow/unfollow chaque fois qu'on voit un utilisateur (sur profil, par message/commentaire, etc...)
+
+Profile
+    - Pour un utilisateur privé et non-follow : seulement nom/prénom/username, bouton follow et public posts
+    - Bouton liste de follow by
+    - Bouton liste de following
+    - Bouton liste de groupes rejoints
+
+Chat
+    - On ne peut chat qu'avec un utilisateur qui a un follow réciproque
+
+Posts
+    - Les posts sont affichés en entier. On ne peut pas afficher un post dans une page spécifique
+    - Bouton pour afficher les commentaires en dessous
+    
+Groupes
+    - Pas de changement de nom de groupes
+    - Les pages de groupes sont plus ou moins des pages de profil (+ events)
+    - L'administration se fait par des options supplémentaires chez le chef du groupe
+

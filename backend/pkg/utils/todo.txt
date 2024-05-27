@@ -1,0 +1,3 @@
+2: separer les requetes à la db des fonctions/handlers ???
+3: pour le register il faut ajouter les images pour l'avatar
+4: ajouter de la secu pour le register on peut se register avec un formulaire vide

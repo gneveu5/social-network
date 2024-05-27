@@ -1,0 +1,14 @@
+.alert-counter {
+    display: inline-block;
+    border-radius: 50%;
+    width: 11px;
+    height: 11px;
+    padding: 2px;
+    background: red;
+    border: 1px solid #000;
+    color: white;
+    text-align: center;
+    font-size: 8px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

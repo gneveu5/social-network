@@ -1,0 +1,144 @@
+#home-main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.post-form {
+    margin: 1rem 1rem;
+    padding-bottom: 1rem;
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+    border: solid;
+    border-color: grey;
+    border-width: 0.2rem;
+    width: 110%;
+}
+.post-form-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+
+}
+.comment-form {
+    margin: 1rem 1rem;
+}
+
+.posts, .comments {
+    margin: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+
+.post-content, .com-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-div {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.com-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-subdiv {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-title {
+    font-weight: bold;
+}
+
+.header-div-name {
+    color: rgb(69, 90, 255);
+    font-weight: bold;
+}
+
+.header-date {
+    color: rgb(171, 171, 171);
+    font-weight: bold;
+    font-style: italic;
+}
+
+.post-body {
+    margin: 10px 0;
+}
+
+.see-comments {
+  align-items: center;
+  background-color: #0A66C2;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.see-comments:hover { 
+  background-color: #16437E;
+  color: #ffffff;
+}
+
+.see-comments:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.see-comments:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+
+.submit-form {
+    margin-left: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: aquamarine;
+    color:#2c5777;
+}
+
+.group-form {
+    margin: 1rem 1rem;
+    padding-bottom: 1rem;
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+    border: solid;
+    border-color: grey;
+    border-width: 0.2rem;
+    width: 60%;
+
+}

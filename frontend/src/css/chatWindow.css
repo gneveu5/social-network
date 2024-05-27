@@ -1,0 +1,90 @@
+#chat-window {
+    resize: block;
+    box-sizing: border-box;
+    position : fixed;
+    bottom: 0px;
+    right:17vw;
+    width: 25vw;
+    height: 35vh;
+    border: black solid 1px;
+    background-color: white;
+    z-index: 1;
+    display: block;
+    transition: display linear 1s;
+}
+
+#chat-window.hidden {
+    display: none;
+    transition: display linear 1s;
+}
+
+#chat-window-hide-button {
+    box-sizing: border-box;
+    height: 8%;
+    width:10px;
+    position:absolute;
+    top: 1%;
+    right: 2px;
+    background-color: red;
+    border: black solid 1px;
+    z-index: 2;
+}
+
+#chat-window-load-more-button {
+    box-sizing: border-box;
+    height: 8%;
+    width:10px;
+    position:absolute;
+    top: 1%;
+    right: 14px;
+    background-color: aquamarine;
+    border: black solid 1px;
+    z-index: 2;
+}
+
+
+#chat-window-informations {
+    box-sizing: border-box;
+    position:absolute;
+    top: 0%;
+    height: 10%;
+    width: 100%;
+    font-size: 100%;
+}
+
+#messages-container {
+    box-sizing: border-box;
+    position: absolute;
+    top: 10%;
+    height:70%;
+    width: 100%;
+    border-bottom: black solid 1px;
+    border-top: black solid 1px;
+    overflow-y: auto;
+}
+
+#send-message-container {
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height:20%;
+    top:80%;
+}
+
+#send-message-button {
+    box-sizing: border-box;
+    position: absolute;
+    width:10%;
+    height:90%;
+    top: 5%;
+    right:0%;
+}
+
+#send-message-input {
+    box-sizing: border-box;
+    position: absolute;
+    width:85%;
+    height:90%;
+    top: 5%;
+    left:0%;
+}

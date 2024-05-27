@@ -1,0 +1,8 @@
+-- +migrate Up
+CREATE TABLE IF NOT EXISTS group_members (
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+    user_id INTEGER NOT NULL,
+    group_id INTEGER NOT NULL,
+    FOREIGN KEY(user_id) REFERENCES users(id) ON DELETE CASCADE,
+    FOREIGN KEY(group_id) REFERENCES users_group(id) ON DELETE CASCADE
+);
